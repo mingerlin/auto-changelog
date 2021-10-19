@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/mingerlin/auto-changelog/compare/v1.2.3...v2.0.0) (2021-10-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* key in config file is now used for extending other config files
+
+### Features
+
+* allow provided config object to extend other configs ([2eb5a51](https://github.com/mingerlin/auto-changelog/commit/2eb5a510fee33de4ecc49eee37a724d4114a763d))
+
 ### [1.2.3](https://github.com/mingerlin/auto-changelog/compare/v1.2.2...v1.2.3) (2021-10-19)
 
 
