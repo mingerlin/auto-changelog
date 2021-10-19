@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/mingerlin/auto-changelog/compare/v3.0.0...v3.1.0) (2021-10-19)
+
+
+### Features
+
+* feature 3BREAKING CHANGE:  key in config file ([8f5aefa](https://github.com/mingerlin/auto-changelog/commit/8f5aefabe1825f9ffd77d9cea1b116725b7aacbb))
+
 ## [3.0.0](https://github.com/mingerlin/auto-changelog/compare/v2.0.0...v3.0.0) (2021-10-19)
 
 
