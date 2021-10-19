@@ -4,7 +4,8 @@
   "description": "auto-changelog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mingerlin/auto-changelog/issues"
   },
-  "homepage": "https://github.com/mingerlin/auto-changelog#readme"
+  "homepage": "https://github.com/mingerlin/auto-changelog#readme",
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
