@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/mingerlin/auto-changelog/compare/v2.0.0...v3.0.0) (2021-10-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* key in config file
+
+### Bug Fixes
+
+* test1 ([135248c](https://github.com/mingerlin/auto-changelog/commit/135248cef6e36e03e25304e121942bab31754822))
+* test2" ([c256d26](https://github.com/mingerlin/auto-changelog/commit/c256d26139f3c9efda69255d92e09264be463794))
+
 ## [2.0.0](https://github.com/mingerlin/auto-changelog/compare/v1.2.3...v2.0.0) (2021-10-19)
 
 
