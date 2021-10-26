@@ -5,17 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test:no-watch": "ng test --watch-false",
     "release": "standard-version",
     "lint": "prettier --check .",
     "format": "prettier --write ."
-  },
-  "husky": {
-    "hooks": {
-      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
-      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
-      "post-applypatch": "echo \"[Husky] post-applypatch\"",
-      "pre-commit": "echo \"[Husky] pre-commit\""
-    }
   },
   "repository": {
     "type": "git",
@@ -29,10 +22,13 @@
   },
   "homepage": "https://github.com/mingerlin/auto-changelog#readme",
   "devDependencies": {
+    "husky": "^7.0.4",
     "prettier": "^2.4.1",
     "standard-version": "^9.3.2"
   },
-  "dependencies": {
-    "husky": "^7.0.4"
+  "husky": {
+    "hook": {
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
   }
 }
