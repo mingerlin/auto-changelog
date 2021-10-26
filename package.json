@@ -24,7 +24,8 @@
   "devDependencies": {
     "husky": "^7.0.4",
     "prettier": "^2.4.1",
-    "standard-version": "^9.3.2"
+    "standard-version": "^9.3.2",
+    "prepare": "husky install"
   },
   "husky": {
     "hook": {
