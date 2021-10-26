@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/mingerlin/auto-changelog#readme",
   "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
     "husky": "^7.0.4",
+    "prepare": "husky install",
     "prettier": "^2.4.1",
-    "standard-version": "^9.3.2",
-    "prepare": "husky install"
+    "standard-version": "^9.3.2"
   },
   "husky": {
     "hooks": {
