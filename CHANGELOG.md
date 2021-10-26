@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/mingerlin/auto-changelog/compare/v5.0.0...v5.1.0) (2021-10-26)
+
+
+### Features
+
+* this should pass ([d011d7f](https://github.com/mingerlin/auto-changelog/commit/d011d7ff11b7219606fa289c2b17a6ec96a0effb))
+
 ## [5.0.0](https://github.com/mingerlin/auto-changelog/compare/v4.0.1...v5.0.0) (2021-10-21)
 
 ### ⚠ BREAKING CHANGES
