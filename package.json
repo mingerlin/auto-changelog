@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:no-watch": "ng test --watch-false",
     "release": "standard-version",
     "lint": "prettier --check .",
     "format": "prettier --write ."
@@ -29,7 +28,7 @@
   },
   "husky": {
     "hook": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
+      "pre-commit": "npm test"
     }
   }
 }
