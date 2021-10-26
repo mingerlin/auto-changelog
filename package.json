@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit 1\""
+      "pre-commit": "echo \"[Husky] pre-commit 2\""
     }
   }
 }
