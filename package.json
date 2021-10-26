@@ -27,7 +27,7 @@
     "prepare": "husky install"
   },
   "husky": {
-    "hook": {
+    "hooks": {
       "pre-commit": "npm test"
     }
   }
